@@ -24,7 +24,6 @@ web_web:
 
 web_fpm:
   build: ./PHP-FPM/
-  image: fpm-7.0.5
   restart: always
   links:
     - web_db:mysql
