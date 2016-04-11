@@ -6,7 +6,7 @@ web_db:
    environment:
     MYSQL_ROOT_PASSWORD: @Str0NgP@Ssw0rd
 
-web_web:
+web_front:
   image: nginx
   restart: always
   ports:
